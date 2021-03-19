@@ -528,13 +528,384 @@
 *REMOVED*~virtual Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase.Content(string contentPath) -> string
 *REMOVED*~virtual Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase.IsLocalUrl(string url) -> bool
 *REMOVED*~virtual Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase.Link(string routeName, object values) -> string
+*REMOVED*Microsoft.AspNetCore.Mvc.AcceptVerbsAttribute.Name.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.AcceptVerbsAttribute.Route.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.AcceptedAtActionResult.AcceptedAtActionResult(string! actionName, string! controllerName, object! routeValues, object! value) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.AcceptedAtActionResult.ActionName.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.AcceptedAtActionResult.ControllerName.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.AcceptedAtActionResult.RouteValues.get -> Microsoft.AspNetCore.Routing.RouteValueDictionary!
+*REMOVED*Microsoft.AspNetCore.Mvc.AcceptedAtActionResult.UrlHelper.get -> Microsoft.AspNetCore.Mvc.IUrlHelper!
+*REMOVED*Microsoft.AspNetCore.Mvc.AcceptedAtRouteResult.AcceptedAtRouteResult(object! routeValues, object! value) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.AcceptedAtRouteResult.AcceptedAtRouteResult(string! routeName, object! routeValues, object! value) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.AcceptedAtRouteResult.RouteName.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.AcceptedAtRouteResult.RouteValues.get -> Microsoft.AspNetCore.Routing.RouteValueDictionary!
+*REMOVED*Microsoft.AspNetCore.Mvc.AcceptedAtRouteResult.UrlHelper.get -> Microsoft.AspNetCore.Mvc.IUrlHelper!
+*REMOVED*Microsoft.AspNetCore.Mvc.AcceptedResult.AcceptedResult(System.Uri! locationUri, object! value) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.AcceptedResult.AcceptedResult(string! location, object! value) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.AcceptedResult.Location.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.ActionResult<TValue>.Result.get -> Microsoft.AspNetCore.Mvc.ActionResult!
+*REMOVED*Microsoft.AspNetCore.Mvc.ApiDescriptionActionData.GroupName.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.ApiExplorer.IApiDescriptionGroupNameProvider.GroupName.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.ApiExplorer.IApiRequestFormatMetadataProvider.GetSupportedContentTypes(string! contentType, System.Type! objectType) -> System.Collections.Generic.IReadOnlyList<string!>!
+*REMOVED*Microsoft.AspNetCore.Mvc.ApiExplorer.IApiResponseMetadataProvider.Type.get -> System.Type!
+*REMOVED*Microsoft.AspNetCore.Mvc.ApiExplorer.IApiResponseTypeMetadataProvider.GetSupportedContentTypes(string! contentType, System.Type! objectType) -> System.Collections.Generic.IReadOnlyList<string!>!
+*REMOVED*Microsoft.AspNetCore.Mvc.ApiExplorerSettingsAttribute.GroupName.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.ApplicationModels.ActionModel.RouteParameterTransformer.get -> Microsoft.AspNetCore.Routing.IOutboundParameterTransformer!
+*REMOVED*Microsoft.AspNetCore.Mvc.ApplicationModels.ActionModel.RouteValues.get -> System.Collections.Generic.IDictionary<string!, string!>!
+*REMOVED*Microsoft.AspNetCore.Mvc.ApplicationModels.ApiExplorerModel.GroupName.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel.Attribute.get -> Microsoft.AspNetCore.Mvc.Routing.IRouteTemplateProvider!
+*REMOVED*Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel.Name.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel.Template.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerModel.Application.get -> Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModel!
+*REMOVED*Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerModel.RouteValues.get -> System.Collections.Generic.IDictionary<string!, string!>!
+*REMOVED*Microsoft.AspNetCore.Mvc.ApplicationModels.IBindingModel.BindingInfo.get -> Microsoft.AspNetCore.Mvc.ModelBinding.BindingInfo!
+*REMOVED*Microsoft.AspNetCore.Mvc.ApplicationModels.ParameterModelBase.BindingInfo.get -> Microsoft.AspNetCore.Mvc.ModelBinding.BindingInfo!
+*REMOVED*Microsoft.AspNetCore.Mvc.ApplicationModels.SelectorModel.AttributeRouteModel.get -> Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel!
+*REMOVED*Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter.AuthorizeData.get -> System.Collections.Generic.IEnumerable<Microsoft.AspNetCore.Authorization.IAuthorizeData!>!
+*REMOVED*Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter.Policy.get -> Microsoft.AspNetCore.Authorization.AuthorizationPolicy!
+*REMOVED*Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter.PolicyProvider.get -> Microsoft.AspNetCore.Authorization.IAuthorizationPolicyProvider!
+*REMOVED*Microsoft.AspNetCore.Mvc.BindAttribute.Prefix.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.BindPropertyAttribute.BinderType.get -> System.Type!
+*REMOVED*Microsoft.AspNetCore.Mvc.BindPropertyAttribute.Name.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.CacheProfile.VaryByHeader.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.CacheProfile.VaryByQueryKeys.get -> string![]!
+*REMOVED*Microsoft.AspNetCore.Mvc.ChallengeResult.ChallengeResult(Microsoft.AspNetCore.Authentication.AuthenticationProperties! properties) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.ChallengeResult.ChallengeResult(System.Collections.Generic.IList<string!>! authenticationSchemes, Microsoft.AspNetCore.Authentication.AuthenticationProperties! properties) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.ChallengeResult.ChallengeResult(string! authenticationScheme, Microsoft.AspNetCore.Authentication.AuthenticationProperties! properties) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.ChallengeResult.Properties.get -> Microsoft.AspNetCore.Authentication.AuthenticationProperties!
+*REMOVED*Microsoft.AspNetCore.Mvc.ClientErrorData.Link.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.ClientErrorData.Title.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.ContentResult.Content.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.ContentResult.ContentType.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateReleaser(Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor! descriptor) -> System.Action<Microsoft.AspNetCore.Mvc.ControllerContext!, object!>!
+*REMOVED*Microsoft.AspNetCore.Mvc.Controllers.IControllerActivatorProvider.CreateReleaser(Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor! descriptor) -> System.Action<Microsoft.AspNetCore.Mvc.ControllerContext!, object!>!
+*REMOVED*Microsoft.AspNetCore.Mvc.Controllers.IControllerFactoryProvider.CreateControllerReleaser(Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor! descriptor) -> System.Action<Microsoft.AspNetCore.Mvc.ControllerContext!, object!>!
+*REMOVED*Microsoft.AspNetCore.Mvc.CreatedAtActionResult.ActionName.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.CreatedAtActionResult.ControllerName.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.CreatedAtActionResult.CreatedAtActionResult(string! actionName, string! controllerName, object! routeValues, object! value) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.CreatedAtActionResult.RouteValues.get -> Microsoft.AspNetCore.Routing.RouteValueDictionary!
+*REMOVED*Microsoft.AspNetCore.Mvc.CreatedAtActionResult.UrlHelper.get -> Microsoft.AspNetCore.Mvc.IUrlHelper!
+*REMOVED*Microsoft.AspNetCore.Mvc.CreatedAtRouteResult.CreatedAtRouteResult(object! routeValues, object! value) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.CreatedAtRouteResult.CreatedAtRouteResult(string! routeName, object! routeValues, object! value) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.CreatedAtRouteResult.RouteName.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.CreatedAtRouteResult.RouteValues.get -> Microsoft.AspNetCore.Routing.RouteValueDictionary!
+*REMOVED*Microsoft.AspNetCore.Mvc.CreatedAtRouteResult.UrlHelper.get -> Microsoft.AspNetCore.Mvc.IUrlHelper!
+*REMOVED*Microsoft.AspNetCore.Mvc.CreatedResult.CreatedResult(System.Uri! location, object! value) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.CreatedResult.CreatedResult(string! location, object! value) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.FileResult.EntityTag.get -> Microsoft.Net.Http.Headers.EntityTagHeaderValue!
+*REMOVED*Microsoft.AspNetCore.Mvc.ForbidResult.ForbidResult(Microsoft.AspNetCore.Authentication.AuthenticationProperties! properties) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.ForbidResult.ForbidResult(System.Collections.Generic.IList<string!>! authenticationSchemes, Microsoft.AspNetCore.Authentication.AuthenticationProperties! properties) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.ForbidResult.ForbidResult(string! authenticationScheme, Microsoft.AspNetCore.Authentication.AuthenticationProperties! properties) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.ForbidResult.Properties.get -> Microsoft.AspNetCore.Authentication.AuthenticationProperties!
+*REMOVED*Microsoft.AspNetCore.Mvc.Formatters.FormatterMappings.GetMediaTypeMappingForFormat(string! format) -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.Formatters.MediaType.Encoding.get -> System.Text.Encoding!
+*REMOVED*Microsoft.AspNetCore.Mvc.Formatters.TextInputFormatter.SelectCharacterEncoding(Microsoft.AspNetCore.Mvc.Formatters.InputFormatterContext! context) -> System.Text.Encoding!
+*REMOVED*Microsoft.AspNetCore.Mvc.FromFormAttribute.Name.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.FromHeaderAttribute.Name.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.FromQueryAttribute.Name.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.FromRouteAttribute.Name.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.JsonResult.ContentType.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.JsonResult.JsonResult(object! value) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.JsonResult.JsonResult(object! value, object! serializerSettings) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.JsonResult.SerializerSettings.get -> object!
+*REMOVED*Microsoft.AspNetCore.Mvc.JsonResult.Value.get -> object!
+*REMOVED*Microsoft.AspNetCore.Mvc.LocalRedirectResult.UrlHelper.get -> Microsoft.AspNetCore.Mvc.IUrlHelper!
+*REMOVED*Microsoft.AspNetCore.Mvc.ModelBinderAttribute.BinderType.get -> System.Type!
+*REMOVED*Microsoft.AspNetCore.Mvc.ModelBinderAttribute.Name.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.ObjectResult.DeclaredType.get -> System.Type!
+*REMOVED*Microsoft.AspNetCore.Mvc.ObjectResult.ObjectResult(object! value) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.ObjectResult.Value.get -> object!
+*REMOVED*Microsoft.AspNetCore.Mvc.ProblemDetails.Detail.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.ProblemDetails.Extensions.get -> System.Collections.Generic.IDictionary<string!, object!>!
+*REMOVED*Microsoft.AspNetCore.Mvc.ProblemDetails.Instance.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.ProblemDetails.Title.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.ProblemDetails.Type.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.ProducesAttribute.Type.get -> System.Type!
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectResult.UrlHelper.get -> Microsoft.AspNetCore.Mvc.IUrlHelper!
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToActionResult.ActionName.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToActionResult.ControllerName.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToActionResult.Fragment.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToActionResult.RedirectToActionResult(string! actionName, string! controllerName, object! routeValues) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToActionResult.RedirectToActionResult(string! actionName, string! controllerName, object! routeValues, bool permanent) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToActionResult.RedirectToActionResult(string! actionName, string! controllerName, object! routeValues, bool permanent, bool preserveMethod) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToActionResult.RedirectToActionResult(string! actionName, string! controllerName, object! routeValues, bool permanent, bool preserveMethod, string! fragment) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToActionResult.RedirectToActionResult(string! actionName, string! controllerName, object! routeValues, bool permanent, string! fragment) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToActionResult.RedirectToActionResult(string! actionName, string! controllerName, object! routeValues, string! fragment) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToActionResult.RouteValues.get -> Microsoft.AspNetCore.Routing.RouteValueDictionary!
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToActionResult.UrlHelper.get -> Microsoft.AspNetCore.Mvc.IUrlHelper!
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToPageResult.Fragment.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToPageResult.Host.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToPageResult.PageHandler.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToPageResult.PageName.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToPageResult.Protocol.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToPageResult.RedirectToPageResult(string! pageName) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToPageResult.RedirectToPageResult(string! pageName, object! routeValues) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToPageResult.RedirectToPageResult(string! pageName, string! pageHandler) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToPageResult.RedirectToPageResult(string! pageName, string! pageHandler, object! routeValues) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToPageResult.RedirectToPageResult(string! pageName, string! pageHandler, object! routeValues, bool permanent) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToPageResult.RedirectToPageResult(string! pageName, string! pageHandler, object! routeValues, bool permanent, bool preserveMethod) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToPageResult.RedirectToPageResult(string! pageName, string! pageHandler, object! routeValues, bool permanent, bool preserveMethod, string! fragment) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToPageResult.RedirectToPageResult(string! pageName, string! pageHandler, object! routeValues, bool permanent, string! fragment) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToPageResult.RedirectToPageResult(string! pageName, string! pageHandler, object! routeValues, string! fragment) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToPageResult.RouteValues.get -> Microsoft.AspNetCore.Routing.RouteValueDictionary!
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToPageResult.UrlHelper.get -> Microsoft.AspNetCore.Mvc.IUrlHelper!
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToRouteResult.Fragment.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToRouteResult.RedirectToRouteResult(object! routeValues) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToRouteResult.RedirectToRouteResult(string! routeName, object! routeValues) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToRouteResult.RedirectToRouteResult(string! routeName, object! routeValues, bool permanent) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToRouteResult.RedirectToRouteResult(string! routeName, object! routeValues, bool permanent, bool preserveMethod) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToRouteResult.RedirectToRouteResult(string! routeName, object! routeValues, bool permanent, bool preserveMethod, string! fragment) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToRouteResult.RedirectToRouteResult(string! routeName, object! routeValues, bool permanent, string! fragment) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToRouteResult.RedirectToRouteResult(string! routeName, object! routeValues, string! fragment) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToRouteResult.RouteName.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToRouteResult.RouteValues.get -> Microsoft.AspNetCore.Routing.RouteValueDictionary!
+*REMOVED*Microsoft.AspNetCore.Mvc.RedirectToRouteResult.UrlHelper.get -> Microsoft.AspNetCore.Mvc.IUrlHelper!
+*REMOVED*Microsoft.AspNetCore.Mvc.ResponseCacheAttribute.CacheProfileName.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.ResponseCacheAttribute.VaryByHeader.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.ResponseCacheAttribute.VaryByQueryKeys.get -> string![]!
+*REMOVED*Microsoft.AspNetCore.Mvc.RouteAttribute.Name.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.SignInResult.AuthenticationScheme.get -> string!
+*REMOVED*Microsoft.AspNetCore.Mvc.SignInResult.Properties.get -> Microsoft.AspNetCore.Authentication.AuthenticationProperties!
+*REMOVED*Microsoft.AspNetCore.Mvc.SignInResult.SignInResult(System.Security.Claims.ClaimsPrincipal! principal, Microsoft.AspNetCore.Authentication.AuthenticationProperties! properties) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.SignInResult.SignInResult(string! authenticationScheme, System.Security.Claims.ClaimsPrincipal! principal) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.SignInResult.SignInResult(string! authenticationScheme, System.Security.Claims.ClaimsPrincipal! principal, Microsoft.AspNetCore.Authentication.AuthenticationProperties! properties) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.SignOutResult.Properties.get -> Microsoft.AspNetCore.Authentication.AuthenticationProperties!
+*REMOVED*Microsoft.AspNetCore.Mvc.SignOutResult.SignOutResult(System.Collections.Generic.IList<string!>! authenticationSchemes, Microsoft.AspNetCore.Authentication.AuthenticationProperties! properties) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.SignOutResult.SignOutResult(string! authenticationScheme, Microsoft.AspNetCore.Authentication.AuthenticationProperties! properties) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.TypeFilterAttribute.Arguments.get -> object![]!
+*REMOVED*Microsoft.AspNetCore.Mvc.VirtualFileResult.FileProvider.get -> Microsoft.Extensions.FileProviders.IFileProvider!
+*REMOVED*override Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor.DisplayName.get -> string!
+*REMOVED*static Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(this Microsoft.AspNetCore.Routing.IEndpointRouteBuilder! endpoints, string! name, string! areaName, string! pattern, object! defaults = null, object! constraints = null, object! dataTokens = null) -> Microsoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder!
+*REMOVED*static Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapControllerRoute(this Microsoft.AspNetCore.Routing.IEndpointRouteBuilder! endpoints, string! name, string! pattern, object! defaults = null, object! constraints = null, object! dataTokens = null) -> Microsoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder!
+*REMOVED*static Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapDynamicControllerRoute<TTransformer>(this Microsoft.AspNetCore.Routing.IEndpointRouteBuilder! endpoints, string! pattern, object! state) -> void
+*REMOVED*static Microsoft.AspNetCore.Builder.MvcAreaRouteBuilderExtensions.MapAreaRoute(this Microsoft.AspNetCore.Routing.IRouteBuilder! routeBuilder, string! name, string! areaName, string! template) -> Microsoft.AspNetCore.Routing.IRouteBuilder!
+*REMOVED*static Microsoft.AspNetCore.Builder.MvcAreaRouteBuilderExtensions.MapAreaRoute(this Microsoft.AspNetCore.Routing.IRouteBuilder! routeBuilder, string! name, string! areaName, string! template, object! defaults) -> Microsoft.AspNetCore.Routing.IRouteBuilder!
+*REMOVED*static Microsoft.AspNetCore.Builder.MvcAreaRouteBuilderExtensions.MapAreaRoute(this Microsoft.AspNetCore.Routing.IRouteBuilder! routeBuilder, string! name, string! areaName, string! template, object! defaults, object! constraints) -> Microsoft.AspNetCore.Routing.IRouteBuilder!
+*REMOVED*static Microsoft.AspNetCore.Builder.MvcAreaRouteBuilderExtensions.MapAreaRoute(this Microsoft.AspNetCore.Routing.IRouteBuilder! routeBuilder, string! name, string! areaName, string! template, object! defaults, object! constraints, object! dataTokens) -> Microsoft.AspNetCore.Routing.IRouteBuilder!
+*REMOVED*static Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel.CombineAttributeRouteModel(Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel! left, Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel! right) -> Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel!
+*REMOVED*static Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel.CombineTemplates(string! prefix, string! template) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel.IsOverridePattern(string! template) -> bool
+*REMOVED*static Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel.ReplaceTokens(string! template, System.Collections.Generic.IDictionary<string!, string!>! values) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel.ReplaceTokens(string! template, System.Collections.Generic.IDictionary<string!, string!>! values, Microsoft.AspNetCore.Routing.IOutboundParameterTransformer! routeTokenTransformer) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.Formatters.MediaType.GetEncoding(Microsoft.Extensions.Primitives.StringSegment mediaType) -> System.Text.Encoding!
+*REMOVED*static Microsoft.AspNetCore.Mvc.Formatters.MediaType.GetEncoding(string! mediaType) -> System.Text.Encoding!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Action(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Action(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string! action) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Action(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string! action, object! values) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Action(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string! action, string! controller) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Action(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string! action, string! controller, object! values) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Action(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string! action, string! controller, object! values, string! protocol) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Action(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string! action, string! controller, object! values, string! protocol, string! host) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Action(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string! action, string! controller, object! values, string! protocol, string! host, string! fragment) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.ActionLink(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string! action = null, string! controller = null, object! values = null, string! protocol = null, string! host = null, string! fragment = null) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(this Microsoft.AspNetCore.Mvc.IUrlHelper! urlHelper, string! pageName) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(this Microsoft.AspNetCore.Mvc.IUrlHelper! urlHelper, string! pageName, object! values) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(this Microsoft.AspNetCore.Mvc.IUrlHelper! urlHelper, string! pageName, string! pageHandler) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(this Microsoft.AspNetCore.Mvc.IUrlHelper! urlHelper, string! pageName, string! pageHandler, object! values) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(this Microsoft.AspNetCore.Mvc.IUrlHelper! urlHelper, string! pageName, string! pageHandler, object! values, string! protocol) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(this Microsoft.AspNetCore.Mvc.IUrlHelper! urlHelper, string! pageName, string! pageHandler, object! values, string! protocol, string! host) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(this Microsoft.AspNetCore.Mvc.IUrlHelper! urlHelper, string! pageName, string! pageHandler, object! values, string! protocol, string! host, string! fragment) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.PageLink(this Microsoft.AspNetCore.Mvc.IUrlHelper! urlHelper, string! pageName = null, string! pageHandler = null, object! values = null, string! protocol = null, string! host = null, string! fragment = null) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.RouteUrl(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, object! values) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.RouteUrl(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string! routeName) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.RouteUrl(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string! routeName, object! values) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.RouteUrl(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string! routeName, object! values, string! protocol) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.RouteUrl(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string! routeName, object! values, string! protocol, string! host) -> string!
+*REMOVED*static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.RouteUrl(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string! routeName, object! values, string! protocol, string! host, string! fragment) -> string!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.BindPropertyAttribute.BindingSource.get -> Microsoft.AspNetCore.Mvc.ModelBinding.BindingSource!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.Accepted(System.Uri! uri, object! value) -> Microsoft.AspNetCore.Mvc.AcceptedResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.Accepted(string! uri) -> Microsoft.AspNetCore.Mvc.AcceptedResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.Accepted(string! uri, object! value) -> Microsoft.AspNetCore.Mvc.AcceptedResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.AcceptedAtAction(string! actionName) -> Microsoft.AspNetCore.Mvc.AcceptedAtActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.AcceptedAtAction(string! actionName, object! routeValues, object! value) -> Microsoft.AspNetCore.Mvc.AcceptedAtActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.AcceptedAtAction(string! actionName, object! value) -> Microsoft.AspNetCore.Mvc.AcceptedAtActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.AcceptedAtAction(string! actionName, string! controllerName) -> Microsoft.AspNetCore.Mvc.AcceptedAtActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.AcceptedAtAction(string! actionName, string! controllerName, object! routeValues) -> Microsoft.AspNetCore.Mvc.AcceptedAtActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.AcceptedAtAction(string! actionName, string! controllerName, object! routeValues, object! value) -> Microsoft.AspNetCore.Mvc.AcceptedAtActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.AcceptedAtRoute(object! routeValues) -> Microsoft.AspNetCore.Mvc.AcceptedAtRouteResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.AcceptedAtRoute(object! routeValues, object! value) -> Microsoft.AspNetCore.Mvc.AcceptedAtRouteResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.AcceptedAtRoute(string! routeName) -> Microsoft.AspNetCore.Mvc.AcceptedAtRouteResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.AcceptedAtRoute(string! routeName, object! routeValues) -> Microsoft.AspNetCore.Mvc.AcceptedAtRouteResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.AcceptedAtRoute(string! routeName, object! routeValues, object! value) -> Microsoft.AspNetCore.Mvc.AcceptedAtRouteResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.Content(string! content, Microsoft.Net.Http.Headers.MediaTypeHeaderValue! contentType) -> Microsoft.AspNetCore.Mvc.ContentResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.CreatedAtAction(string! actionName, object! routeValues, object! value) -> Microsoft.AspNetCore.Mvc.CreatedAtActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.CreatedAtAction(string! actionName, object! value) -> Microsoft.AspNetCore.Mvc.CreatedAtActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.CreatedAtAction(string! actionName, string! controllerName, object! routeValues, object! value) -> Microsoft.AspNetCore.Mvc.CreatedAtActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.CreatedAtRoute(object! routeValues, object! value) -> Microsoft.AspNetCore.Mvc.CreatedAtRouteResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.CreatedAtRoute(string! routeName, object! routeValues, object! value) -> Microsoft.AspNetCore.Mvc.CreatedAtRouteResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.CreatedAtRoute(string! routeName, object! value) -> Microsoft.AspNetCore.Mvc.CreatedAtRouteResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(System.IO.Stream! fileStream, string! contentType, string! fileDownloadName) -> Microsoft.AspNetCore.Mvc.FileStreamResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(System.IO.Stream! fileStream, string! contentType, string! fileDownloadName, System.DateTimeOffset? lastModified, Microsoft.Net.Http.Headers.EntityTagHeaderValue! entityTag) -> Microsoft.AspNetCore.Mvc.FileStreamResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(System.IO.Stream! fileStream, string! contentType, string! fileDownloadName, System.DateTimeOffset? lastModified, Microsoft.Net.Http.Headers.EntityTagHeaderValue! entityTag, bool enableRangeProcessing) -> Microsoft.AspNetCore.Mvc.FileStreamResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(System.IO.Stream! fileStream, string! contentType, string! fileDownloadName, bool enableRangeProcessing) -> Microsoft.AspNetCore.Mvc.FileStreamResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(byte[]! fileContents, string! contentType, string! fileDownloadName) -> Microsoft.AspNetCore.Mvc.FileContentResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(byte[]! fileContents, string! contentType, string! fileDownloadName, System.DateTimeOffset? lastModified, Microsoft.Net.Http.Headers.EntityTagHeaderValue! entityTag) -> Microsoft.AspNetCore.Mvc.FileContentResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(byte[]! fileContents, string! contentType, string! fileDownloadName, System.DateTimeOffset? lastModified, Microsoft.Net.Http.Headers.EntityTagHeaderValue! entityTag, bool enableRangeProcessing) -> Microsoft.AspNetCore.Mvc.FileContentResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(byte[]! fileContents, string! contentType, string! fileDownloadName, bool enableRangeProcessing) -> Microsoft.AspNetCore.Mvc.FileContentResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(string! virtualPath, string! contentType, string! fileDownloadName) -> Microsoft.AspNetCore.Mvc.VirtualFileResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(string! virtualPath, string! contentType, string! fileDownloadName, System.DateTimeOffset? lastModified, Microsoft.Net.Http.Headers.EntityTagHeaderValue! entityTag) -> Microsoft.AspNetCore.Mvc.VirtualFileResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(string! virtualPath, string! contentType, string! fileDownloadName, System.DateTimeOffset? lastModified, Microsoft.Net.Http.Headers.EntityTagHeaderValue! entityTag, bool enableRangeProcessing) -> Microsoft.AspNetCore.Mvc.VirtualFileResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(string! virtualPath, string! contentType, string! fileDownloadName, bool enableRangeProcessing) -> Microsoft.AspNetCore.Mvc.VirtualFileResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.PhysicalFile(string! physicalPath, string! contentType, string! fileDownloadName) -> Microsoft.AspNetCore.Mvc.PhysicalFileResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.PhysicalFile(string! physicalPath, string! contentType, string! fileDownloadName, System.DateTimeOffset? lastModified, Microsoft.Net.Http.Headers.EntityTagHeaderValue! entityTag) -> Microsoft.AspNetCore.Mvc.PhysicalFileResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.PhysicalFile(string! physicalPath, string! contentType, string! fileDownloadName, System.DateTimeOffset? lastModified, Microsoft.Net.Http.Headers.EntityTagHeaderValue! entityTag, bool enableRangeProcessing) -> Microsoft.AspNetCore.Mvc.PhysicalFileResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.PhysicalFile(string! physicalPath, string! contentType, string! fileDownloadName, bool enableRangeProcessing) -> Microsoft.AspNetCore.Mvc.PhysicalFileResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.Problem(string! detail = null, string! instance = null, int? statusCode = null, string! title = null, string! type = null) -> Microsoft.AspNetCore.Mvc.ObjectResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string! actionName) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string! actionName, object! routeValues) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string! actionName, string! controllerName) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string! actionName, string! controllerName, object! routeValues) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string! actionName, string! controllerName, object! routeValues, string! fragment) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string! actionName, string! controllerName, string! fragment) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToActionPermanent(string! actionName) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToActionPermanent(string! actionName, object! routeValues) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToActionPermanent(string! actionName, string! controllerName) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToActionPermanent(string! actionName, string! controllerName, object! routeValues) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToActionPermanent(string! actionName, string! controllerName, object! routeValues, string! fragment) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToActionPermanent(string! actionName, string! controllerName, string! fragment) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToActionPermanentPreserveMethod(string! actionName = null, string! controllerName = null, object! routeValues = null, string! fragment = null) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToActionPreserveMethod(string! actionName = null, string! controllerName = null, object! routeValues = null, string! fragment = null) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToPage(string! pageName, object! routeValues) -> Microsoft.AspNetCore.Mvc.RedirectToPageResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToPage(string! pageName, string! pageHandler) -> Microsoft.AspNetCore.Mvc.RedirectToPageResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToPage(string! pageName, string! pageHandler, object! routeValues) -> Microsoft.AspNetCore.Mvc.RedirectToPageResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToPage(string! pageName, string! pageHandler, object! routeValues, string! fragment) -> Microsoft.AspNetCore.Mvc.RedirectToPageResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToPage(string! pageName, string! pageHandler, string! fragment) -> Microsoft.AspNetCore.Mvc.RedirectToPageResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToPagePermanent(string! pageName, object! routeValues) -> Microsoft.AspNetCore.Mvc.RedirectToPageResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToPagePermanent(string! pageName, string! pageHandler) -> Microsoft.AspNetCore.Mvc.RedirectToPageResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToPagePermanent(string! pageName, string! pageHandler, object! routeValues, string! fragment) -> Microsoft.AspNetCore.Mvc.RedirectToPageResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToPagePermanent(string! pageName, string! pageHandler, string! fragment) -> Microsoft.AspNetCore.Mvc.RedirectToPageResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToPagePermanentPreserveMethod(string! pageName, string! pageHandler = null, object! routeValues = null, string! fragment = null) -> Microsoft.AspNetCore.Mvc.RedirectToPageResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToPagePreserveMethod(string! pageName, string! pageHandler = null, object! routeValues = null, string! fragment = null) -> Microsoft.AspNetCore.Mvc.RedirectToPageResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoute(object! routeValues) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoute(string! routeName) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoute(string! routeName, object! routeValues) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoute(string! routeName, object! routeValues, string! fragment) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoute(string! routeName, string! fragment) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoutePermanent(object! routeValues) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoutePermanent(string! routeName) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoutePermanent(string! routeName, object! routeValues) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoutePermanent(string! routeName, object! routeValues, string! fragment) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoutePermanent(string! routeName, string! fragment) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoutePermanentPreserveMethod(string! routeName = null, object! routeValues = null, string! fragment = null) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoutePreserveMethod(string! routeName = null, object! routeValues = null, string! fragment = null) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.TryValidateModel(object! model, string! prefix) -> bool
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.ValidationProblem(string! detail = null, string! instance = null, int? statusCode = null, string! title = null, string! type = null, Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary! modelStateDictionary = null) -> Microsoft.AspNetCore.Mvc.ActionResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.Formatters.FormatFilter.GetFormat(Microsoft.AspNetCore.Mvc.ActionContext! context) -> string!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.Formatters.InputFormatter.GetDefaultValueForType(System.Type! modelType) -> object!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.Formatters.InputFormatter.GetSupportedContentTypes(string! contentType, System.Type! objectType) -> System.Collections.Generic.IReadOnlyList<string!>!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.CanWriteType(System.Type! type) -> bool
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(string! contentType, System.Type! objectType) -> System.Collections.Generic.IReadOnlyList<string!>!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.Infrastructure.PhysicalFileResultExecutor.WriteFileAsync(Microsoft.AspNetCore.Mvc.ActionContext! context, Microsoft.AspNetCore.Mvc.PhysicalFileResult! result, Microsoft.Net.Http.Headers.RangeItemHeaderValue! range, long rangeLength) -> System.Threading.Tasks.Task!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ModelBinderAttribute.BindingSource.get -> Microsoft.AspNetCore.Mvc.ModelBinding.BindingSource!
+*REMOVED*Microsoft.AspNetCore.Mvc.BadRequestObjectResult.BadRequestObjectResult(object! error) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.ConflictObjectResult.ConflictObjectResult(object! error) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.NotFoundObjectResult.NotFoundObjectResult(object! value) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.OkObjectResult.OkObjectResult(object! value) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult.UnauthorizedObjectResult(object! value) -> void
+*REMOVED*Microsoft.AspNetCore.Mvc.UnprocessableEntityObjectResult.UnprocessableEntityObjectResult(object! error) -> void
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.Accepted(object! value) -> Microsoft.AspNetCore.Mvc.AcceptedResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.BadRequest(object! error) -> Microsoft.AspNetCore.Mvc.BadRequestObjectResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.Conflict(object! error) -> Microsoft.AspNetCore.Mvc.ConflictObjectResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.Created(System.Uri! uri, object! value) -> Microsoft.AspNetCore.Mvc.CreatedResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.Created(string! uri, object! value) -> Microsoft.AspNetCore.Mvc.CreatedResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.NotFound(object! value) -> Microsoft.AspNetCore.Mvc.NotFoundObjectResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object! value) -> Microsoft.AspNetCore.Mvc.OkObjectResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.StatusCode(int statusCode, object! value) -> Microsoft.AspNetCore.Mvc.ObjectResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.Unauthorized(object! value) -> Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult!
+*REMOVED*virtual Microsoft.AspNetCore.Mvc.ControllerBase.UnprocessableEntity(object! error) -> Microsoft.AspNetCore.Mvc.UnprocessableEntityObjectResult!
+Microsoft.AspNetCore.Mvc.AcceptVerbsAttribute.Name.get -> string?
+Microsoft.AspNetCore.Mvc.AcceptVerbsAttribute.Route.get -> string?
+Microsoft.AspNetCore.Mvc.AcceptedAtActionResult.AcceptedAtActionResult(string? actionName, string? controllerName, object? routeValues, object? value) -> void
+Microsoft.AspNetCore.Mvc.AcceptedAtActionResult.ActionName.get -> string?
+Microsoft.AspNetCore.Mvc.AcceptedAtActionResult.ControllerName.get -> string?
+Microsoft.AspNetCore.Mvc.AcceptedAtActionResult.RouteValues.get -> Microsoft.AspNetCore.Routing.RouteValueDictionary?
+Microsoft.AspNetCore.Mvc.AcceptedAtActionResult.UrlHelper.get -> Microsoft.AspNetCore.Mvc.IUrlHelper?
+Microsoft.AspNetCore.Mvc.AcceptedAtRouteResult.AcceptedAtRouteResult(object? routeValues, object? value) -> void
+Microsoft.AspNetCore.Mvc.AcceptedAtRouteResult.AcceptedAtRouteResult(string? routeName, object? routeValues, object? value) -> void
+Microsoft.AspNetCore.Mvc.AcceptedAtRouteResult.RouteName.get -> string?
+Microsoft.AspNetCore.Mvc.AcceptedAtRouteResult.RouteValues.get -> Microsoft.AspNetCore.Routing.RouteValueDictionary?
+Microsoft.AspNetCore.Mvc.AcceptedAtRouteResult.UrlHelper.get -> Microsoft.AspNetCore.Mvc.IUrlHelper?
+Microsoft.AspNetCore.Mvc.AcceptedResult.AcceptedResult(System.Uri! locationUri, object? value) -> void
+Microsoft.AspNetCore.Mvc.AcceptedResult.AcceptedResult(string? location, object? value) -> void
+Microsoft.AspNetCore.Mvc.AcceptedResult.Location.get -> string?
+Microsoft.AspNetCore.Mvc.ActionResult<TValue>.Result.get -> Microsoft.AspNetCore.Mvc.ActionResult?
+Microsoft.AspNetCore.Mvc.ApiDescriptionActionData.GroupName.get -> string?
+Microsoft.AspNetCore.Mvc.ApiExplorer.IApiDescriptionGroupNameProvider.GroupName.get -> string?
+Microsoft.AspNetCore.Mvc.ApiExplorer.IApiRequestFormatMetadataProvider.GetSupportedContentTypes(string! contentType, System.Type! objectType) -> System.Collections.Generic.IReadOnlyList<string!>?
+Microsoft.AspNetCore.Mvc.ApiExplorer.IApiResponseMetadataProvider.Type.get -> System.Type?
+Microsoft.AspNetCore.Mvc.ApiExplorer.IApiResponseTypeMetadataProvider.GetSupportedContentTypes(string! contentType, System.Type! objectType) -> System.Collections.Generic.IReadOnlyList<string!>?
+Microsoft.AspNetCore.Mvc.ApiExplorerSettingsAttribute.GroupName.get -> string?
+Microsoft.AspNetCore.Mvc.ApplicationModels.ActionModel.RouteParameterTransformer.get -> Microsoft.AspNetCore.Routing.IOutboundParameterTransformer?
+Microsoft.AspNetCore.Mvc.ApplicationModels.ActionModel.RouteValues.get -> System.Collections.Generic.IDictionary<string!, string?>!
+Microsoft.AspNetCore.Mvc.ApplicationModels.ApiExplorerModel.GroupName.get -> string?
+Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel.Attribute.get -> Microsoft.AspNetCore.Mvc.Routing.IRouteTemplateProvider?
+Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel.Name.get -> string?
+Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel.Template.get -> string?
+Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerModel.Application.get -> Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModel?
+Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerModel.RouteValues.get -> System.Collections.Generic.IDictionary<string!, string?>!
+Microsoft.AspNetCore.Mvc.ApplicationModels.IBindingModel.BindingInfo.get -> Microsoft.AspNetCore.Mvc.ModelBinding.BindingInfo?
+Microsoft.AspNetCore.Mvc.ApplicationModels.ParameterModelBase.BindingInfo.get -> Microsoft.AspNetCore.Mvc.ModelBinding.BindingInfo?
+Microsoft.AspNetCore.Mvc.ApplicationModels.SelectorModel.AttributeRouteModel.get -> Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel?
+Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter.AuthorizeData.get -> System.Collections.Generic.IEnumerable<Microsoft.AspNetCore.Authorization.IAuthorizeData!>?
+Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter.Policy.get -> Microsoft.AspNetCore.Authorization.AuthorizationPolicy?
+Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter.PolicyProvider.get -> Microsoft.AspNetCore.Authorization.IAuthorizationPolicyProvider?
+Microsoft.AspNetCore.Mvc.BadRequestObjectResult.BadRequestObjectResult(object? error) -> void
+Microsoft.AspNetCore.Mvc.BindAttribute.Prefix.get -> string?
+Microsoft.AspNetCore.Mvc.BindPropertyAttribute.BinderType.get -> System.Type?
+Microsoft.AspNetCore.Mvc.BindPropertyAttribute.Name.get -> string?
+Microsoft.AspNetCore.Mvc.CacheProfile.VaryByHeader.get -> string?
+Microsoft.AspNetCore.Mvc.CacheProfile.VaryByQueryKeys.get -> string![]?
+Microsoft.AspNetCore.Mvc.ChallengeResult.ChallengeResult(Microsoft.AspNetCore.Authentication.AuthenticationProperties? properties) -> void
+Microsoft.AspNetCore.Mvc.ChallengeResult.ChallengeResult(System.Collections.Generic.IList<string!>! authenticationSchemes, Microsoft.AspNetCore.Authentication.AuthenticationProperties? properties) -> void
+Microsoft.AspNetCore.Mvc.ChallengeResult.ChallengeResult(string! authenticationScheme, Microsoft.AspNetCore.Authentication.AuthenticationProperties? properties) -> void
+Microsoft.AspNetCore.Mvc.ChallengeResult.Properties.get -> Microsoft.AspNetCore.Authentication.AuthenticationProperties?
+Microsoft.AspNetCore.Mvc.ClientErrorData.Link.get -> string?
+Microsoft.AspNetCore.Mvc.ClientErrorData.Title.get -> string?
+Microsoft.AspNetCore.Mvc.ConflictObjectResult.ConflictObjectResult(object? error) -> void
+Microsoft.AspNetCore.Mvc.ContentResult.Content.get -> string?
+Microsoft.AspNetCore.Mvc.ContentResult.ContentType.get -> string?
+Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateAsyncReleaser(Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor! descriptor) -> System.Func<Microsoft.AspNetCore.Mvc.ControllerContext!, object!, System.Threading.Tasks.ValueTask>?
+Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateReleaser(Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor! descriptor) -> System.Action<Microsoft.AspNetCore.Mvc.ControllerContext!, object!>?
+Microsoft.AspNetCore.Mvc.Controllers.IControllerActivatorProvider.CreateAsyncReleaser(Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor! descriptor) -> System.Func<Microsoft.AspNetCore.Mvc.ControllerContext!, object!, System.Threading.Tasks.ValueTask>?
+Microsoft.AspNetCore.Mvc.Controllers.IControllerActivatorProvider.CreateReleaser(Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor! descriptor) -> System.Action<Microsoft.AspNetCore.Mvc.ControllerContext!, object!>?
+Microsoft.AspNetCore.Mvc.Controllers.IControllerFactoryProvider.CreateAsyncControllerReleaser(Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor! descriptor) -> System.Func<Microsoft.AspNetCore.Mvc.ControllerContext!, object!, System.Threading.Tasks.ValueTask>?
+Microsoft.AspNetCore.Mvc.Controllers.IControllerFactoryProvider.CreateControllerReleaser(Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor! descriptor) -> System.Action<Microsoft.AspNetCore.Mvc.ControllerContext!, object!>?
+Microsoft.AspNetCore.Mvc.CreatedAtActionResult.ActionName.get -> string?
+Microsoft.AspNetCore.Mvc.CreatedAtActionResult.ControllerName.get -> string?
+Microsoft.AspNetCore.Mvc.CreatedAtActionResult.CreatedAtActionResult(string? actionName, string? controllerName, object? routeValues, object? value) -> void
+Microsoft.AspNetCore.Mvc.CreatedAtActionResult.RouteValues.get -> Microsoft.AspNetCore.Routing.RouteValueDictionary?
+Microsoft.AspNetCore.Mvc.CreatedAtActionResult.UrlHelper.get -> Microsoft.AspNetCore.Mvc.IUrlHelper?
+Microsoft.AspNetCore.Mvc.CreatedAtRouteResult.CreatedAtRouteResult(object? routeValues, object? value) -> void
+Microsoft.AspNetCore.Mvc.CreatedAtRouteResult.CreatedAtRouteResult(string? routeName, object? routeValues, object? value) -> void
+Microsoft.AspNetCore.Mvc.CreatedAtRouteResult.RouteName.get -> string?
+Microsoft.AspNetCore.Mvc.CreatedAtRouteResult.RouteValues.get -> Microsoft.AspNetCore.Routing.RouteValueDictionary?
+Microsoft.AspNetCore.Mvc.CreatedAtRouteResult.UrlHelper.get -> Microsoft.AspNetCore.Mvc.IUrlHelper?
+Microsoft.AspNetCore.Mvc.CreatedResult.CreatedResult(System.Uri! location, object? value) -> void
+Microsoft.AspNetCore.Mvc.CreatedResult.CreatedResult(string! location, object? value) -> void
+Microsoft.AspNetCore.Mvc.FileResult.EntityTag.get -> Microsoft.Net.Http.Headers.EntityTagHeaderValue?
+Microsoft.AspNetCore.Mvc.ForbidResult.ForbidResult(Microsoft.AspNetCore.Authentication.AuthenticationProperties? properties) -> void
+Microsoft.AspNetCore.Mvc.ForbidResult.ForbidResult(System.Collections.Generic.IList<string!>! authenticationSchemes, Microsoft.AspNetCore.Authentication.AuthenticationProperties? properties) -> void
+Microsoft.AspNetCore.Mvc.ForbidResult.ForbidResult(string! authenticationScheme, Microsoft.AspNetCore.Authentication.AuthenticationProperties? properties) -> void
+Microsoft.AspNetCore.Mvc.ForbidResult.Properties.get -> Microsoft.AspNetCore.Authentication.AuthenticationProperties?
+Microsoft.AspNetCore.Mvc.Formatters.FormatterMappings.GetMediaTypeMappingForFormat(string! format) -> string?
+Microsoft.AspNetCore.Mvc.Formatters.MediaType.Encoding.get -> System.Text.Encoding?
+Microsoft.AspNetCore.Mvc.Formatters.TextInputFormatter.SelectCharacterEncoding(Microsoft.AspNetCore.Mvc.Formatters.InputFormatterContext! context) -> System.Text.Encoding?
+Microsoft.AspNetCore.Mvc.FromFormAttribute.Name.get -> string?
+Microsoft.AspNetCore.Mvc.FromHeaderAttribute.Name.get -> string?
+Microsoft.AspNetCore.Mvc.FromQueryAttribute.Name.get -> string?
+Microsoft.AspNetCore.Mvc.FromRouteAttribute.Name.get -> string?
 Microsoft.AspNetCore.Mvc.JsonOptions.AllowInputFormatterExceptionMessages.get -> bool
 Microsoft.AspNetCore.Mvc.JsonOptions.AllowInputFormatterExceptionMessages.set -> void
-~Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateAsyncReleaser(Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor descriptor) -> System.Func<Microsoft.AspNetCore.Mvc.ControllerContext, object, System.Threading.Tasks.ValueTask>
-~Microsoft.AspNetCore.Mvc.Controllers.IControllerActivator.ReleaseAsync(Microsoft.AspNetCore.Mvc.ControllerContext context, object controller) -> System.Threading.Tasks.ValueTask
-~Microsoft.AspNetCore.Mvc.Controllers.IControllerActivatorProvider.CreateAsyncReleaser(Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor descriptor) -> System.Func<Microsoft.AspNetCore.Mvc.ControllerContext, object, System.Threading.Tasks.ValueTask>
-~Microsoft.AspNetCore.Mvc.Controllers.IControllerFactory.ReleaseControllerAsync(Microsoft.AspNetCore.Mvc.ControllerContext context, object controller) -> System.Threading.Tasks.ValueTask
-~Microsoft.AspNetCore.Mvc.Controllers.IControllerFactoryProvider.CreateAsyncControllerReleaser(Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor descriptor) -> System.Func<Microsoft.AspNetCore.Mvc.ControllerContext, object, System.Threading.Tasks.ValueTask>
+Microsoft.AspNetCore.Mvc.Controllers.IControllerActivator.ReleaseAsync(Microsoft.AspNetCore.Mvc.ControllerContext! context, object! controller) -> System.Threading.Tasks.ValueTask
+Microsoft.AspNetCore.Mvc.Controllers.IControllerFactory.ReleaseControllerAsync(Microsoft.AspNetCore.Mvc.ControllerContext! context, object! controller) -> System.Threading.Tasks.ValueTask
+Microsoft.AspNetCore.Mvc.JsonResult.ContentType.get -> string?
+Microsoft.AspNetCore.Mvc.JsonResult.JsonResult(object? value) -> void
+Microsoft.AspNetCore.Mvc.JsonResult.JsonResult(object? value, object? serializerSettings) -> void
+Microsoft.AspNetCore.Mvc.JsonResult.SerializerSettings.get -> object?
+Microsoft.AspNetCore.Mvc.JsonResult.Value.get -> object?
+Microsoft.AspNetCore.Mvc.LocalRedirectResult.UrlHelper.get -> Microsoft.AspNetCore.Mvc.IUrlHelper?
+Microsoft.AspNetCore.Mvc.ModelBinderAttribute.BinderType.get -> System.Type?
+Microsoft.AspNetCore.Mvc.ModelBinderAttribute.Name.get -> string?
 Microsoft.AspNetCore.Mvc.MvcOptions.EnableActionInvokers.get -> bool
 Microsoft.AspNetCore.Mvc.MvcOptions.EnableActionInvokers.set -> void
 Microsoft.AspNetCore.Mvc.Infrastructure.ActionContextAccessor.ActionContext.get -> Microsoft.AspNetCore.Mvc.ActionContext?
@@ -544,6 +915,205 @@ Microsoft.AspNetCore.Mvc.Infrastructure.ActionDescriptorCollection.Items.get -> 
 Microsoft.AspNetCore.Mvc.Infrastructure.AmbiguousActionException.AmbiguousActionException(System.Runtime.Serialization.SerializationInfo! info, System.Runtime.Serialization.StreamingContext context) -> void
 Microsoft.AspNetCore.Mvc.Infrastructure.AmbiguousActionException.AmbiguousActionException(string? message) -> void
 Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.ContentResultExecutor(Microsoft.Extensions.Logging.ILogger<Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor!>! logger, Microsoft.AspNetCore.Mvc.Infrastructure.IHttpResponseStreamWriterFactory! httpResponseStreamWriterFactory) -> void
+Microsoft.AspNetCore.Mvc.NotFoundObjectResult.NotFoundObjectResult(object? value) -> void
+Microsoft.AspNetCore.Mvc.ObjectResult.DeclaredType.get -> System.Type?
+Microsoft.AspNetCore.Mvc.ObjectResult.ObjectResult(object? value) -> void
+Microsoft.AspNetCore.Mvc.ObjectResult.Value.get -> object?
+Microsoft.AspNetCore.Mvc.OkObjectResult.OkObjectResult(object? value) -> void
+Microsoft.AspNetCore.Mvc.ProblemDetails.Detail.get -> string?
+Microsoft.AspNetCore.Mvc.ProblemDetails.Extensions.get -> System.Collections.Generic.IDictionary<string!, object?>!
+Microsoft.AspNetCore.Mvc.ProblemDetails.Instance.get -> string?
+Microsoft.AspNetCore.Mvc.ProblemDetails.Title.get -> string?
+Microsoft.AspNetCore.Mvc.ProblemDetails.Type.get -> string?
+Microsoft.AspNetCore.Mvc.ProducesAttribute.Type.get -> System.Type?
+Microsoft.AspNetCore.Mvc.RedirectResult.UrlHelper.get -> Microsoft.AspNetCore.Mvc.IUrlHelper?
+Microsoft.AspNetCore.Mvc.RedirectToActionResult.ActionName.get -> string?
+Microsoft.AspNetCore.Mvc.RedirectToActionResult.ControllerName.get -> string?
+Microsoft.AspNetCore.Mvc.RedirectToActionResult.Fragment.get -> string?
+Microsoft.AspNetCore.Mvc.RedirectToActionResult.RedirectToActionResult(string? actionName, string? controllerName, object? routeValues) -> void
+Microsoft.AspNetCore.Mvc.RedirectToActionResult.RedirectToActionResult(string? actionName, string? controllerName, object? routeValues, bool permanent) -> void
+Microsoft.AspNetCore.Mvc.RedirectToActionResult.RedirectToActionResult(string? actionName, string? controllerName, object? routeValues, bool permanent, bool preserveMethod) -> void
+Microsoft.AspNetCore.Mvc.RedirectToActionResult.RedirectToActionResult(string? actionName, string? controllerName, object? routeValues, bool permanent, bool preserveMethod, string? fragment) -> void
+Microsoft.AspNetCore.Mvc.RedirectToActionResult.RedirectToActionResult(string? actionName, string? controllerName, object? routeValues, bool permanent, string? fragment) -> void
+Microsoft.AspNetCore.Mvc.RedirectToActionResult.RedirectToActionResult(string? actionName, string? controllerName, object? routeValues, string? fragment) -> void
+Microsoft.AspNetCore.Mvc.RedirectToActionResult.RouteValues.get -> Microsoft.AspNetCore.Routing.RouteValueDictionary?
+Microsoft.AspNetCore.Mvc.RedirectToActionResult.UrlHelper.get -> Microsoft.AspNetCore.Mvc.IUrlHelper?
+Microsoft.AspNetCore.Mvc.RedirectToPageResult.Fragment.get -> string?
+Microsoft.AspNetCore.Mvc.RedirectToPageResult.Host.get -> string?
+Microsoft.AspNetCore.Mvc.RedirectToPageResult.PageHandler.get -> string?
+Microsoft.AspNetCore.Mvc.RedirectToPageResult.PageName.get -> string?
+Microsoft.AspNetCore.Mvc.RedirectToPageResult.Protocol.get -> string?
+Microsoft.AspNetCore.Mvc.RedirectToPageResult.RedirectToPageResult(string? pageName) -> void
+Microsoft.AspNetCore.Mvc.RedirectToPageResult.RedirectToPageResult(string? pageName, object? routeValues) -> void
+Microsoft.AspNetCore.Mvc.RedirectToPageResult.RedirectToPageResult(string? pageName, string? pageHandler) -> void
+Microsoft.AspNetCore.Mvc.RedirectToPageResult.RedirectToPageResult(string? pageName, string? pageHandler, object? routeValues) -> void
+Microsoft.AspNetCore.Mvc.RedirectToPageResult.RedirectToPageResult(string? pageName, string? pageHandler, object? routeValues, bool permanent) -> void
+Microsoft.AspNetCore.Mvc.RedirectToPageResult.RedirectToPageResult(string? pageName, string? pageHandler, object? routeValues, bool permanent, bool preserveMethod) -> void
+Microsoft.AspNetCore.Mvc.RedirectToPageResult.RedirectToPageResult(string? pageName, string? pageHandler, object? routeValues, bool permanent, bool preserveMethod, string? fragment) -> void
+Microsoft.AspNetCore.Mvc.RedirectToPageResult.RedirectToPageResult(string? pageName, string? pageHandler, object? routeValues, bool permanent, string? fragment) -> void
+Microsoft.AspNetCore.Mvc.RedirectToPageResult.RedirectToPageResult(string? pageName, string? pageHandler, object? routeValues, string? fragment) -> void
+Microsoft.AspNetCore.Mvc.RedirectToPageResult.RouteValues.get -> Microsoft.AspNetCore.Routing.RouteValueDictionary?
+Microsoft.AspNetCore.Mvc.RedirectToPageResult.UrlHelper.get -> Microsoft.AspNetCore.Mvc.IUrlHelper?
+Microsoft.AspNetCore.Mvc.RedirectToRouteResult.Fragment.get -> string?
+Microsoft.AspNetCore.Mvc.RedirectToRouteResult.RedirectToRouteResult(object? routeValues) -> void
+Microsoft.AspNetCore.Mvc.RedirectToRouteResult.RedirectToRouteResult(string? routeName, object? routeValues) -> void
+Microsoft.AspNetCore.Mvc.RedirectToRouteResult.RedirectToRouteResult(string? routeName, object? routeValues, bool permanent) -> void
+Microsoft.AspNetCore.Mvc.RedirectToRouteResult.RedirectToRouteResult(string? routeName, object? routeValues, bool permanent, bool preserveMethod) -> void
+Microsoft.AspNetCore.Mvc.RedirectToRouteResult.RedirectToRouteResult(string? routeName, object? routeValues, bool permanent, bool preserveMethod, string? fragment) -> void
+Microsoft.AspNetCore.Mvc.RedirectToRouteResult.RedirectToRouteResult(string? routeName, object? routeValues, bool permanent, string? fragment) -> void
+Microsoft.AspNetCore.Mvc.RedirectToRouteResult.RedirectToRouteResult(string? routeName, object? routeValues, string? fragment) -> void
+Microsoft.AspNetCore.Mvc.RedirectToRouteResult.RouteName.get -> string?
+Microsoft.AspNetCore.Mvc.RedirectToRouteResult.RouteValues.get -> Microsoft.AspNetCore.Routing.RouteValueDictionary?
+Microsoft.AspNetCore.Mvc.RedirectToRouteResult.UrlHelper.get -> Microsoft.AspNetCore.Mvc.IUrlHelper?
+Microsoft.AspNetCore.Mvc.ResponseCacheAttribute.CacheProfileName.get -> string?
+Microsoft.AspNetCore.Mvc.ResponseCacheAttribute.VaryByHeader.get -> string?
+Microsoft.AspNetCore.Mvc.ResponseCacheAttribute.VaryByQueryKeys.get -> string![]?
+Microsoft.AspNetCore.Mvc.RouteAttribute.Name.get -> string?
+Microsoft.AspNetCore.Mvc.SignInResult.AuthenticationScheme.get -> string?
+Microsoft.AspNetCore.Mvc.SignInResult.Properties.get -> Microsoft.AspNetCore.Authentication.AuthenticationProperties?
+Microsoft.AspNetCore.Mvc.SignInResult.SignInResult(System.Security.Claims.ClaimsPrincipal! principal, Microsoft.AspNetCore.Authentication.AuthenticationProperties? properties) -> void
+Microsoft.AspNetCore.Mvc.SignInResult.SignInResult(string? authenticationScheme, System.Security.Claims.ClaimsPrincipal! principal) -> void
+Microsoft.AspNetCore.Mvc.SignInResult.SignInResult(string? authenticationScheme, System.Security.Claims.ClaimsPrincipal! principal, Microsoft.AspNetCore.Authentication.AuthenticationProperties? properties) -> void
+Microsoft.AspNetCore.Mvc.SignOutResult.Properties.get -> Microsoft.AspNetCore.Authentication.AuthenticationProperties?
+Microsoft.AspNetCore.Mvc.SignOutResult.SignOutResult(System.Collections.Generic.IList<string!>! authenticationSchemes, Microsoft.AspNetCore.Authentication.AuthenticationProperties? properties) -> void
+Microsoft.AspNetCore.Mvc.SignOutResult.SignOutResult(string! authenticationScheme, Microsoft.AspNetCore.Authentication.AuthenticationProperties? properties) -> void
+Microsoft.AspNetCore.Mvc.TypeFilterAttribute.Arguments.get -> object![]?
+Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult.UnauthorizedObjectResult(object? value) -> void
+Microsoft.AspNetCore.Mvc.UnprocessableEntityObjectResult.UnprocessableEntityObjectResult(object? error) -> void
+Microsoft.AspNetCore.Mvc.VirtualFileResult.FileProvider.get -> Microsoft.Extensions.FileProviders.IFileProvider?
+override Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor.DisplayName.get -> string?
+static Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(this Microsoft.AspNetCore.Routing.IEndpointRouteBuilder! endpoints, string! name, string! areaName, string! pattern, object? defaults = null, object? constraints = null, object? dataTokens = null) -> Microsoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder!
+static Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapControllerRoute(this Microsoft.AspNetCore.Routing.IEndpointRouteBuilder! endpoints, string! name, string! pattern, object? defaults = null, object? constraints = null, object? dataTokens = null) -> Microsoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder!
+static Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapDynamicControllerRoute<TTransformer>(this Microsoft.AspNetCore.Routing.IEndpointRouteBuilder! endpoints, string! pattern, object? state) -> void
+static Microsoft.AspNetCore.Builder.MvcAreaRouteBuilderExtensions.MapAreaRoute(this Microsoft.AspNetCore.Routing.IRouteBuilder! routeBuilder, string! name, string! areaName, string? template) -> Microsoft.AspNetCore.Routing.IRouteBuilder!
+static Microsoft.AspNetCore.Builder.MvcAreaRouteBuilderExtensions.MapAreaRoute(this Microsoft.AspNetCore.Routing.IRouteBuilder! routeBuilder, string! name, string! areaName, string? template, object? defaults) -> Microsoft.AspNetCore.Routing.IRouteBuilder!
+static Microsoft.AspNetCore.Builder.MvcAreaRouteBuilderExtensions.MapAreaRoute(this Microsoft.AspNetCore.Routing.IRouteBuilder! routeBuilder, string! name, string! areaName, string? template, object? defaults, object? constraints) -> Microsoft.AspNetCore.Routing.IRouteBuilder!
+static Microsoft.AspNetCore.Builder.MvcAreaRouteBuilderExtensions.MapAreaRoute(this Microsoft.AspNetCore.Routing.IRouteBuilder! routeBuilder, string! name, string! areaName, string? template, object? defaults, object? constraints, object? dataTokens) -> Microsoft.AspNetCore.Routing.IRouteBuilder!
+static Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel.CombineAttributeRouteModel(Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel? left, Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel? right) -> Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel?
+static Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel.CombineTemplates(string? prefix, string? template) -> string?
+static Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel.IsOverridePattern(string? template) -> bool
+static Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel.ReplaceTokens(string! template, System.Collections.Generic.IDictionary<string!, string?>! values) -> string!
+static Microsoft.AspNetCore.Mvc.ApplicationModels.AttributeRouteModel.ReplaceTokens(string! template, System.Collections.Generic.IDictionary<string!, string?>! values, Microsoft.AspNetCore.Routing.IOutboundParameterTransformer? routeTokenTransformer) -> string!
+static Microsoft.AspNetCore.Mvc.Formatters.MediaType.GetEncoding(Microsoft.Extensions.Primitives.StringSegment mediaType) -> System.Text.Encoding?
+static Microsoft.AspNetCore.Mvc.Formatters.MediaType.GetEncoding(string! mediaType) -> System.Text.Encoding?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Action(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper) -> string?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Action(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string? action) -> string?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Action(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string? action, object? values) -> string?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Action(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string? action, string? controller) -> string?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Action(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string? action, string? controller, object? values) -> string?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Action(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string? action, string? controller, object? values, string? protocol) -> string?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Action(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string? action, string? controller, object? values, string? protocol, string? host) -> string?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Action(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string? action, string? controller, object? values, string? protocol, string? host, string? fragment) -> string?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.ActionLink(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string? action = null, string? controller = null, object? values = null, string? protocol = null, string? host = null, string? fragment = null) -> string?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(this Microsoft.AspNetCore.Mvc.IUrlHelper! urlHelper, string? pageName) -> string?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(this Microsoft.AspNetCore.Mvc.IUrlHelper! urlHelper, string? pageName, object? values) -> string?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(this Microsoft.AspNetCore.Mvc.IUrlHelper! urlHelper, string? pageName, string? pageHandler) -> string?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(this Microsoft.AspNetCore.Mvc.IUrlHelper! urlHelper, string? pageName, string? pageHandler, object? values) -> string?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(this Microsoft.AspNetCore.Mvc.IUrlHelper! urlHelper, string? pageName, string? pageHandler, object? values, string? protocol) -> string?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(this Microsoft.AspNetCore.Mvc.IUrlHelper! urlHelper, string? pageName, string? pageHandler, object? values, string? protocol, string? host) -> string?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Page(this Microsoft.AspNetCore.Mvc.IUrlHelper! urlHelper, string? pageName, string? pageHandler, object? values, string? protocol, string? host, string? fragment) -> string?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.PageLink(this Microsoft.AspNetCore.Mvc.IUrlHelper! urlHelper, string? pageName = null, string? pageHandler = null, object? values = null, string? protocol = null, string? host = null, string? fragment = null) -> string?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.RouteUrl(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, object? values) -> string?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.RouteUrl(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string? routeName) -> string?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.RouteUrl(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string? routeName, object? values) -> string?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.RouteUrl(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string? routeName, object? values, string? protocol) -> string?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.RouteUrl(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string? routeName, object? values, string? protocol, string? host) -> string?
+static Microsoft.AspNetCore.Mvc.UrlHelperExtensions.RouteUrl(this Microsoft.AspNetCore.Mvc.IUrlHelper! helper, string? routeName, object? values, string? protocol, string? host, string? fragment) -> string?
+virtual Microsoft.AspNetCore.Mvc.BindPropertyAttribute.BindingSource.get -> Microsoft.AspNetCore.Mvc.ModelBinding.BindingSource?
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.Accepted(System.Uri! uri, object? value) -> Microsoft.AspNetCore.Mvc.AcceptedResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.Accepted(object? value) -> Microsoft.AspNetCore.Mvc.AcceptedResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.Accepted(string? uri) -> Microsoft.AspNetCore.Mvc.AcceptedResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.Accepted(string? uri, object? value) -> Microsoft.AspNetCore.Mvc.AcceptedResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.AcceptedAtAction(string? actionName) -> Microsoft.AspNetCore.Mvc.AcceptedAtActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.AcceptedAtAction(string? actionName, object? routeValues, object? value) -> Microsoft.AspNetCore.Mvc.AcceptedAtActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.AcceptedAtAction(string? actionName, object? value) -> Microsoft.AspNetCore.Mvc.AcceptedAtActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.AcceptedAtAction(string? actionName, string? controllerName) -> Microsoft.AspNetCore.Mvc.AcceptedAtActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.AcceptedAtAction(string? actionName, string? controllerName, object? routeValues) -> Microsoft.AspNetCore.Mvc.AcceptedAtActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.AcceptedAtAction(string? actionName, string? controllerName, object? routeValues, object? value) -> Microsoft.AspNetCore.Mvc.AcceptedAtActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.AcceptedAtRoute(object? routeValues) -> Microsoft.AspNetCore.Mvc.AcceptedAtRouteResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.AcceptedAtRoute(object? routeValues, object? value) -> Microsoft.AspNetCore.Mvc.AcceptedAtRouteResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.AcceptedAtRoute(string? routeName) -> Microsoft.AspNetCore.Mvc.AcceptedAtRouteResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.AcceptedAtRoute(string? routeName, object? routeValues) -> Microsoft.AspNetCore.Mvc.AcceptedAtRouteResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.AcceptedAtRoute(string? routeName, object? routeValues, object? value) -> Microsoft.AspNetCore.Mvc.AcceptedAtRouteResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.BadRequest(object? error) -> Microsoft.AspNetCore.Mvc.BadRequestObjectResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.Conflict(object? error) -> Microsoft.AspNetCore.Mvc.ConflictObjectResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.Content(string! content, Microsoft.Net.Http.Headers.MediaTypeHeaderValue? contentType) -> Microsoft.AspNetCore.Mvc.ContentResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.Created(System.Uri! uri, object? value) -> Microsoft.AspNetCore.Mvc.CreatedResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.Created(string! uri, object? value) -> Microsoft.AspNetCore.Mvc.CreatedResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.CreatedAtAction(string? actionName, object? routeValues, object? value) -> Microsoft.AspNetCore.Mvc.CreatedAtActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.CreatedAtAction(string? actionName, object? value) -> Microsoft.AspNetCore.Mvc.CreatedAtActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.CreatedAtAction(string? actionName, string? controllerName, object? routeValues, object? value) -> Microsoft.AspNetCore.Mvc.CreatedAtActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.CreatedAtRoute(object? routeValues, object? value) -> Microsoft.AspNetCore.Mvc.CreatedAtRouteResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.CreatedAtRoute(string? routeName, object? routeValues, object? value) -> Microsoft.AspNetCore.Mvc.CreatedAtRouteResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.CreatedAtRoute(string? routeName, object? value) -> Microsoft.AspNetCore.Mvc.CreatedAtRouteResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(System.IO.Stream! fileStream, string! contentType, string? fileDownloadName) -> Microsoft.AspNetCore.Mvc.FileStreamResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(System.IO.Stream! fileStream, string! contentType, string? fileDownloadName, System.DateTimeOffset? lastModified, Microsoft.Net.Http.Headers.EntityTagHeaderValue! entityTag) -> Microsoft.AspNetCore.Mvc.FileStreamResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(System.IO.Stream! fileStream, string! contentType, string? fileDownloadName, System.DateTimeOffset? lastModified, Microsoft.Net.Http.Headers.EntityTagHeaderValue! entityTag, bool enableRangeProcessing) -> Microsoft.AspNetCore.Mvc.FileStreamResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(System.IO.Stream! fileStream, string! contentType, string? fileDownloadName, bool enableRangeProcessing) -> Microsoft.AspNetCore.Mvc.FileStreamResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(byte[]! fileContents, string! contentType, string? fileDownloadName) -> Microsoft.AspNetCore.Mvc.FileContentResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(byte[]! fileContents, string! contentType, string? fileDownloadName, System.DateTimeOffset? lastModified, Microsoft.Net.Http.Headers.EntityTagHeaderValue! entityTag) -> Microsoft.AspNetCore.Mvc.FileContentResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(byte[]! fileContents, string! contentType, string? fileDownloadName, System.DateTimeOffset? lastModified, Microsoft.Net.Http.Headers.EntityTagHeaderValue! entityTag, bool enableRangeProcessing) -> Microsoft.AspNetCore.Mvc.FileContentResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(byte[]! fileContents, string! contentType, string? fileDownloadName, bool enableRangeProcessing) -> Microsoft.AspNetCore.Mvc.FileContentResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(string! virtualPath, string! contentType, string? fileDownloadName) -> Microsoft.AspNetCore.Mvc.VirtualFileResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(string! virtualPath, string! contentType, string? fileDownloadName, System.DateTimeOffset? lastModified, Microsoft.Net.Http.Headers.EntityTagHeaderValue! entityTag) -> Microsoft.AspNetCore.Mvc.VirtualFileResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(string! virtualPath, string! contentType, string? fileDownloadName, System.DateTimeOffset? lastModified, Microsoft.Net.Http.Headers.EntityTagHeaderValue! entityTag, bool enableRangeProcessing) -> Microsoft.AspNetCore.Mvc.VirtualFileResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.File(string! virtualPath, string! contentType, string? fileDownloadName, bool enableRangeProcessing) -> Microsoft.AspNetCore.Mvc.VirtualFileResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.NotFound(object? value) -> Microsoft.AspNetCore.Mvc.NotFoundObjectResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object? value) -> Microsoft.AspNetCore.Mvc.OkObjectResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.PhysicalFile(string! physicalPath, string! contentType, string? fileDownloadName) -> Microsoft.AspNetCore.Mvc.PhysicalFileResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.PhysicalFile(string! physicalPath, string! contentType, string? fileDownloadName, System.DateTimeOffset? lastModified, Microsoft.Net.Http.Headers.EntityTagHeaderValue! entityTag) -> Microsoft.AspNetCore.Mvc.PhysicalFileResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.PhysicalFile(string! physicalPath, string! contentType, string? fileDownloadName, System.DateTimeOffset? lastModified, Microsoft.Net.Http.Headers.EntityTagHeaderValue! entityTag, bool enableRangeProcessing) -> Microsoft.AspNetCore.Mvc.PhysicalFileResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.PhysicalFile(string! physicalPath, string! contentType, string? fileDownloadName, bool enableRangeProcessing) -> Microsoft.AspNetCore.Mvc.PhysicalFileResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.Problem(string? detail = null, string? instance = null, int? statusCode = null, string? title = null, string? type = null) -> Microsoft.AspNetCore.Mvc.ObjectResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string? actionName) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string? actionName, object? routeValues) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string? actionName, string? controllerName) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string? actionName, string? controllerName, object? routeValues) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string? actionName, string? controllerName, object? routeValues, string? fragment) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string? actionName, string? controllerName, string? fragment) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToActionPermanent(string? actionName) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToActionPermanent(string? actionName, object? routeValues) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToActionPermanent(string? actionName, string? controllerName) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToActionPermanent(string? actionName, string? controllerName, object? routeValues) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToActionPermanent(string? actionName, string? controllerName, object? routeValues, string? fragment) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToActionPermanent(string? actionName, string? controllerName, string? fragment) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToActionPermanentPreserveMethod(string? actionName = null, string? controllerName = null, object? routeValues = null, string? fragment = null) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToActionPreserveMethod(string? actionName = null, string? controllerName = null, object? routeValues = null, string? fragment = null) -> Microsoft.AspNetCore.Mvc.RedirectToActionResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToPage(string! pageName, object? routeValues) -> Microsoft.AspNetCore.Mvc.RedirectToPageResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToPage(string! pageName, string? pageHandler) -> Microsoft.AspNetCore.Mvc.RedirectToPageResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToPage(string! pageName, string? pageHandler, object? routeValues) -> Microsoft.AspNetCore.Mvc.RedirectToPageResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToPage(string! pageName, string? pageHandler, object? routeValues, string? fragment) -> Microsoft.AspNetCore.Mvc.RedirectToPageResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToPage(string! pageName, string? pageHandler, string? fragment) -> Microsoft.AspNetCore.Mvc.RedirectToPageResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToPagePermanent(string! pageName, object? routeValues) -> Microsoft.AspNetCore.Mvc.RedirectToPageResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToPagePermanent(string! pageName, string? pageHandler) -> Microsoft.AspNetCore.Mvc.RedirectToPageResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToPagePermanent(string! pageName, string? pageHandler, object? routeValues, string? fragment) -> Microsoft.AspNetCore.Mvc.RedirectToPageResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToPagePermanent(string! pageName, string? pageHandler, string? fragment) -> Microsoft.AspNetCore.Mvc.RedirectToPageResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToPagePermanentPreserveMethod(string! pageName, string? pageHandler = null, object? routeValues = null, string? fragment = null) -> Microsoft.AspNetCore.Mvc.RedirectToPageResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToPagePreserveMethod(string! pageName, string? pageHandler = null, object? routeValues = null, string? fragment = null) -> Microsoft.AspNetCore.Mvc.RedirectToPageResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoute(object? routeValues) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoute(string? routeName) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoute(string? routeName, object? routeValues) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoute(string? routeName, object? routeValues, string? fragment) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoute(string? routeName, string? fragment) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoutePermanent(object? routeValues) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoutePermanent(string? routeName) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoutePermanent(string? routeName, object? routeValues) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoutePermanent(string? routeName, object? routeValues, string? fragment) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoutePermanent(string? routeName, string? fragment) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoutePermanentPreserveMethod(string? routeName = null, object? routeValues = null, string? fragment = null) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToRoutePreserveMethod(string? routeName = null, object? routeValues = null, string? fragment = null) -> Microsoft.AspNetCore.Mvc.RedirectToRouteResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.StatusCode(int statusCode, object? value) -> Microsoft.AspNetCore.Mvc.ObjectResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.TryValidateModel(object! model, string? prefix) -> bool
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.Unauthorized(object? value) -> Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.UnprocessableEntity(object? error) -> Microsoft.AspNetCore.Mvc.UnprocessableEntityObjectResult!
+virtual Microsoft.AspNetCore.Mvc.ControllerBase.ValidationProblem(string? detail = null, string? instance = null, int? statusCode = null, string? title = null, string? type = null, Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary? modelStateDictionary = null) -> Microsoft.AspNetCore.Mvc.ActionResult!
+virtual Microsoft.AspNetCore.Mvc.Formatters.FormatFilter.GetFormat(Microsoft.AspNetCore.Mvc.ActionContext! context) -> string?
+virtual Microsoft.AspNetCore.Mvc.Formatters.InputFormatter.GetDefaultValueForType(System.Type! modelType) -> object?
+virtual Microsoft.AspNetCore.Mvc.Formatters.InputFormatter.GetSupportedContentTypes(string! contentType, System.Type! objectType) -> System.Collections.Generic.IReadOnlyList<string!>?
+virtual Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.CanWriteType(System.Type? type) -> bool
+virtual Microsoft.AspNetCore.Mvc.Formatters.OutputFormatter.GetSupportedContentTypes(string! contentType, System.Type! objectType) -> System.Collections.Generic.IReadOnlyList<string!>?
+virtual Microsoft.AspNetCore.Mvc.Infrastructure.PhysicalFileResultExecutor.WriteFileAsync(Microsoft.AspNetCore.Mvc.ActionContext! context, Microsoft.AspNetCore.Mvc.PhysicalFileResult! result, Microsoft.Net.Http.Headers.RangeItemHeaderValue? range, long rangeLength) -> System.Threading.Tasks.Task!
+virtual Microsoft.AspNetCore.Mvc.ModelBinderAttribute.BindingSource.get -> Microsoft.AspNetCore.Mvc.ModelBinding.BindingSource?
 ~Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector.DefaultOutputFormatterSelector(Microsoft.Extensions.Options.IOptions<Microsoft.AspNetCore.Mvc.MvcOptions!>! options, Microsoft.Extensions.Logging.ILoggerFactory! loggerFactory) -> void
 Microsoft.AspNetCore.Mvc.Infrastructure.FileContentResultExecutor.FileContentResultExecutor(Microsoft.Extensions.Logging.ILoggerFactory! loggerFactory) -> void
 Microsoft.AspNetCore.Mvc.Infrastructure.FileResultExecutorBase.FileResultExecutorBase(Microsoft.Extensions.Logging.ILogger! logger) -> void
